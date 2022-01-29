@@ -1,0 +1,12 @@
+Install Pytest - pip install pytest
+Naming convetions to follow for Pytest
+Parameterization
+html reports
+
+pytest -v -s
+pytest test_demo1.py -v -s
+pytest -k First -v -s
+pytest -m -v -s
+py.test --html=report.html -s
+pytest Tests/test_LoginPage.py -v --html=report.html
+pytest Tests/test_LoginPage.py -v -n 4 --html=report.html
